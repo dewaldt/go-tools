@@ -1,8 +1,8 @@
 #!/bin/bash
 
-GO_LATEST='go1.20.2'
-AMD64_CHECK='4eaea32f59cde4dc635fbc42161031d13e1c780b87097f4b4234cfce671f1768'
-ARM_CHECK='78d632915bb75e9a6356a47a42625fd1a785c83a64a643fedd8f61e31b1b3bef'
+GO_LATEST='go1.20.6'
+AMD64_CHECK='b945ae2bb5db01a0fb4786afde64e6fbab50b67f6fa0eb6cfa4924f16a7ff1eb'
+ARM_CHECK='4e15ab37556e979181a1a1cc60f6d796932223a0f5351d7c83768b356f84429b'
 ARCH=`uname -m`
 cd /tmp
 
@@ -49,4 +49,3 @@ source /etc/profile
 
 # Install dlv debugger
 sudo -i --login go install github.com/go-delve/delve/cmd/dlv@latest
-
