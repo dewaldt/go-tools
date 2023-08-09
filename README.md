@@ -1,7 +1,7 @@
 # Go Tools
 
 ## Description
->> A simple bash script to install Go 1.20.6 via https://go.dev/dl/ on 64 bit x86 and ARM based devices.
+>> A simple bash script to install Go via https://go.dev/dl/ on 64 bit x86 and ARM based devices.
 
 ## Features
 
