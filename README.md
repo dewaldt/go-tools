@@ -5,7 +5,7 @@
 
 ## Features
 
-- Install Go 1.20.2 To 64 bit x86 Linux or 64 bit ARM Linux 
+- Install Go 1.21.0 To 64 bit x86 Linux or 64 bit ARM Linux 
 - Does SHA256 checksum before installation
 - Update DLV to the latest version
 
